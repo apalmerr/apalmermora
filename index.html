@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Programador y técnico en sistemas, aquí encontrarás más información sobre mi."
+    />
+    <meta
+      property="og:description"
+      content="Programador y técnico en sistemas, aquí encontrarás más información sobre mi. "
+    />
+    <meta property="og:title" content="Arnau Palmer | Full Stack Developer" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Arnau Palmer | Programador y técnico de sistemas"
+    />
+
+    <link rel="icon" type="image/png" href="complements/programador.png">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script src="https://kit.fontawesome.com/0d09027081.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Arnau Palmer | Programador y técnico de sistemas</title>
+  </head>
+  
+  <body>
+    <!----------------NAVBAR----------------->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">AP</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Inicio</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">Sobre mi</a>
+          </li>
+          <li class="navbar__link" data-ref="services">
+            <a href="#services">Servicios</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#estudios">Estudios</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!----------------INICIO----------------->
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source type="image/webp" srcset="./complements/profile.webp" />
+        <source type="image/jpeg" srcset="./complements/profile.png" />
+        <img class="home__profile" alt="picture profile" />
+      </picture>
+      <div class="home__description">
+        <span class="home__title--primary">¡Hola!</span>
+        <h1 class="home__title">Soy Arnau Palmer</h1>
+        <span class="home__title--secondary"> Developer || Técnico en Sistemas</span>
+      </div>
+    </section>
+  
+    <!----------------SOBRE MI----------------->
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">Sobre mi</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h2>Soy Arnau Palmer Mora, programador web y multiplataforma / Técnico en Sistemas</h2>
+            <p>
+              Soy técnico informático, programador web y multiplataforma junior. Me gustaría empezar a trabajar como programador web, ya que es lo que más me apasiona.
+            </p>
+
+            <p>
+              Siempre estoy buscando mejorar mis habilidades y seguir creciendo profesionalmente. 
+              Mi actual propósito es llegar a ser FullStack Web Developer, por eso estoy estudiando mientras busco trabajo.
+            </p>
+            <a
+              class="button--cta"
+              href="./complements/CV_ArnauPalmer.pdf"
+              download="Arnau Palmer CV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Descargar CV
+            </a>
+          </div>
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>Programas</h2>
+            </div>
+            <div class="skill__item">
+              <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML icon"/>
+              <div class="skill__name">HTML</div>
+            </div>
+            <div class="skill__item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS icon"/>
+              <div class="skill__name">CSS</div>
+            </div>
+            <div class="skill__item">
+              <img src="https://sites.google.com/a/innovavirtual.org/tecceilpvi/_/rsrc/1444958444759/home/2015-ii/temas-a-investigar/my-sql-workbench/MySQLWorkbench.png" alt="SQL icon"/>
+              <div class="skill__name">SQL Workbench</div>
+            </div>
+            <div class="skill__item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Android_Studio_Icon_%282014-2019%29.svg/1200px-Android_Studio_Icon_%282014-2019%29.svg.png" alt="AndroidStudio icon"/>
+              <div class="skill__name">Android Studio</div>
+            </div>
+            <div class="skill__item">
+              <img src="https://store-images.s-microsoft.com/image/apps.45808.c45d82a0-5072-49dc-8bad-31c52060c5ae.570a6ff0-e6d4-4769-974f-866d64652759.df2b536a-dccb-4e21-893d-a08e76b5214c.png" alt="CodeStream">
+              <div class="skill__name">CodeStream</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-js"></i>
+              <div class="skill__name">JavaScript</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-linux"></i>
+              <div class="skill__name">Linux</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-github"></i>
+              <div class="skill__name">GitHub</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-git-alt"></i>
+              <div class="skill__name">GIT</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!----------------SERVICIOS----------------->
+    <section id="services">
+      <div class="container">
+        <h2 class="section__title">Servicios</h2>
+        <h3 class="section__subtitle">Servicios que puedo ofrecer actualmente</h3>
+        <div class="services__grid">
+          <div class="services__item">
+            <i class="fas fa-user-secret"></i>
+            <h3>Hacking y Ciberseguridad</h3>
+            <p>  
+              Me apasiona la informática y por eso tengo conocimientos sobre Hacking Ético y Ciberseguridad. 
+              Algunos de mis conocimientos básicos son Google Hacking, análisis de metadatos en archivos, 
+              extraer información de DNS publicados, sniffing, transferencia de zonas, descubrimiento de hosts, 
+              escaneo de puertos, descubrimientos de servicios, análisis de vulnerabilidades y su respectiva explotación.    
+              
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-laptop"></i>
+            <h3>Sistemas</h3>
+            <p>
+              Puedo hacer un correcto mantenimiento de software y hardware de sus dispositivos. 
+              También tengo conocimientos sobre base de datos y servidores.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Web Developer</h3>
+            <p>
+              Puedo diseñar y crear su página web responsive para que se vea bien en cualquier dispositivo. Actualmente, estoy especializado y domino
+              HTML5, CSS y JavaScript.  
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Administrador de Office 365</h3>
+            <p>
+              Gracias a cursos y trabajos ejercidos, tengo la capacidad de administrar y/o enseñar perfectamente Office 365 (Sharepoint, Teams, OnDrive, PowerAutomate).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------TRABAJOS----------------->
+    <section id="trabajos">
+      <div class="container">
+        <h2 class="section__title">Trabajos</h2>
+
+          <div class="services__item">
+            <i class="fas fa-laptop"></i>
+            <h3>COOPERATIVA APOTECARIS</h3>
+            <h4>INFORMATICO GENERAL</h4>
+            <h5>Del 21 de Marzo del 2022 hasta el 31 de Mayo de 2022</h5>
+            <p>
+              En la distribuidora de farmacias y centros hospitalarios llamada Cooperativa Apotecaris realizaba todo tipo de tareas, desde sistemas hasta programador. 
+              Las tareas que realizaba eran mover de sitios Racks, consultas en MySQL, programar y corregir errores de su página web en CSS, arreglar ordenadores y/o cualquier otro dispositivo (fuera software o hardware).
+            </p>
+          </div>
+          
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>IBSALUT</h3>
+            <h4>ADMINISTRADOR DEL SHAREPOINT E INTRANET</h4>
+            <h5>TRABAJANDO ACTUALMENTE</h5>
+            <p>
+              En el Servicio de Sanidad de las Islas Baleares, actualmente soy uno de los pocos administradores del Sharepoint Online y de la Intranet (basada en Sharepoint 2007).
+              Actualmente me dedico a migrar la intranet (basada en Sharepoint 2007) a una nueva intranet en Sharepoint Online. 
+              Algunas cosas de las que incluye dicha administración són la creación de sitios en Sharepoint, soporte por OTRS (tickets) a usuarios, administración de equipos en teams, organización en OneDrive y automatizaciones con PowerAutomate.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!----------------ESTUDIOS----------------->
+    <section id="estudios">
+      <div class="container">
+        <h2 class="section__title">Estudios</h2>
+
+        <div class="service__grid">
+         
+          <div class="services__item">
+            <i class="fas fa-laptop"></i>
+            <h3>FP Grado Medio en Sistemas Microinformaticos y Redes</h3>
+            <p>  
+              En dicho curso aprendí como funcionan varios sistemas operativos (desktops y servers), 
+              también aprendí como funcionan herramientas para el mantenimiento y/o reparación de equipos,
+              sea para hardware y software. También realice ejemplos en servidores y base de datos, para así aprender
+              como realizar su respectivo mantenimiento.  
+            </p>
+          </div>
+          
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>FP Grado Superior de Desarrollo Multiplataforma</h3>
+            <p>
+              En el grado superior aprendí a entender como funciona un ordenador y como diseñar y desarrollar aplicaciones
+              multiplataforma para ordenadores y móviles con sistema operativo Android. Principalmente programábamos las aplicaciones
+              con Java y Python. También aprendí a usar MySQL Workbench ya que la mayoría de aplicaciones requieren de una base de datos.
+            </p>
+          </div>
+          
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Curso GIT & GITHUB</h3>
+            <p>
+              Dicho curso lo realicé online en la academia Udemy. Aprendí a ejecutar comandos en la terminal Windows Powershell y la terminal Linux.
+              También aprendí a usar la herramienta git a través de comando y el funcionamiento total de GitHub.
+              Para finalizar, también opté para aprender a utilizar la nueva aplicación de Github Desktop (para usar git con interfaz).
+
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="fas fa-user-secret"></i>
+            <h3>Curso Hacking Ético & Ciberseguirdad</h3>
+            <p>
+              Algunos de mis conocimientos básicos son Google Hacking, análisis de metadatos en archivos, extraer información de DNS publicados, sniffing,
+              transferencia de zonas, descubrimiento de hosts, escaneo de puertos, descubrimientos de servicios, análisis de vulnerabilidades y su respectiva explotación.
+              Por supuesto, todos estos conocimientos vienen acompañados del uso de aplicaciones como VMWare, Censys, Harvester, FOCA, WireShark, DNSrecon, Nmap, Nessus y MetaSploit
+              entre otras muchas que usé en dicho curso
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="fas fa-laptop"></i>
+            <h3>Curso Linux Bash Shell Scripting</h3>
+            <p>
+              En dicho curso estoy aprendiendo a usar desde lo más básico de la terminal Linux 
+              (contando por supuesto con todas sus distribuciones) hasta como programar scripts para la 
+              automatización de procesos.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Curso Master en CSS </h3>
+            <h4>CURSANDO</h4>
+            <p>
+              En dicho curso estoy repasando las nociones básicas de HTML y CSS. Además de las nociones básicas, estoy aprendiendo a e introduciendome en el 
+              SASS y LESS y sobretodo aprendiendo BOOTSTRAP.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Curso Master de JavaScript </h3>
+            <h4>CURSANDO</h4>
+            <p>
+              De momento en este curso repasamos nociones báscias de HTML y JavaScript. Seguidamente, estamos aprendiendo a usar jQuery, JSON, TypeScript y JS POO, Angular, NodeJS, Express/REST, MongoDB.
+              Al final de dicho curso, tendremos que realizar un proyecto MEAN Stack.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Curso SharePoint</h3>
+            <p>
+              Los conocimientos fueron varios, ya que se aprendió todo sobre la administración de SharePoint Online. Como en la actualidad varias herramientas estan enlazadas con Sharepoint (Teams, OneDrive, PowerAutomate), 
+              también se adquirieron varios conocimientos sobre dichas aplicaciones.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!----------------CONTACTO----------------->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contacto</h2>
+        <h3 class="section__subtitle">
+          Contacte conmigo si cree que podría ser de utilidad.
+        </h3>
+        <div class="contact__grid">
+          <a
+            href="mailto:palmerarnau@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+
+              <i class="far fa-envelope"></i>
+              <p>Mail Me</p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/apalmerr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github"></i>
+              <p>Follow Me</p>
+            </div>
+          </a>
+          <a
+            href="https://www.instagram.com/arnaupalmer/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-instagram"></i>
+              <p>Follow Me</p>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/arnau-palmer-a26369227"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-linkedin-in"></i>
+              <p>Contact Me</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <script async src="./index.js"></script>
+  </body>
+</html>
